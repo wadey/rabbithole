@@ -10,7 +10,7 @@
       "type": "MIT",
       "url": "http://www.opensource.org/licenses/mit-license.php"
     }
-  ]
+  ],
   "dependencies": {
     "amqp": ">=0.0.2",
     "connect": ">=0.2.5",
