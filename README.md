@@ -4,11 +4,16 @@ Rabbithole provides a simple REST /publish endpoint for AMQP servers.
 
 ## How to run
 
-`app.js` exports a Server instance, so you can run it with any NodeJS server
-launcher. I like to use [spark](http://github.com/senchalabs/spark).
+The simplest way is to just execute `app.js` with `node`:
+
+    node app.js                         # will run on port 8165 by default
+    RABBITHOLE_PORT=9999 node app.js    # choose your own port
+
+`app.js` also exports a Server instance, so you can run it with any NodeJS
+server launcher. I like to use [spark](http://github.com/senchalabs/spark).
 To start on port 8165:
 
-    spark -p 8165
+    spark -p 8165 app.js
 
 ## Endpoints
 
