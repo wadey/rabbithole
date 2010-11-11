@@ -5,6 +5,12 @@
   "author": "Wade Simmons <wade@wades.im>",
   "main": "./lib/index.js",
   "engines": { "node": ">= 0.2.1" },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ]
   "dependencies": {
     "amqp": ">=0.0.2",
     "connect": ">=0.2.5",
